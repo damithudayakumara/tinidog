@@ -1,0 +1,146 @@
+body{
+    font-family: montserrat;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.big-heading{
+    font-family: montserrat;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    background-color: rgb(191, 66, 141);
+    padding: 3% 15% 7%;
+}
+.navbar-brand{
+    font-family: ubuntu;
+    font-weight: bold;
+    font-size: 2.5rem;
+    /* position: absolute;
+    left: 2px; */
+
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+.nav-item{
+    font-size: 1.2rem;
+    font-family: montserrat;
+    
+}
+.Download-button{
+    margin: 5% 3% 5% 0  ;
+}
+.title-image{
+    width: 18%;
+    transform: rotate(25deg);
+    
+    right:20%;
+    position:absolute;
+}
+@media(max-width:1024px){
+    #title{
+        text-align: center;
+    }
+.title-image{
+    position: static;
+    transform: rotate(0);
+}
+}
+#features{
+    padding: 7% 15%;
+    color:white;
+    position:relative;
+    z-index:1; 
+}
+h1,h2,h3,h4{
+    font-family: "montserrat-bold";
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+
+p{
+    color: gray;
+}
+.icon{
+    color: orangered;
+    margin: 1rem;
+    
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+padding: 7% 15%;
+text-align: center;
+background-color: darkgrey;
+color: aliceblue;
+}
+.testimonial-text{
+ font-size: 3rem;
+ line-height: 1.5;
+}
+h2{
+    font-family: "montserrat-bold";
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 18%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: antiquewhite;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 8%;
+    text-align: center;
+    background-color:white;
+}
+.pricing-column{
+    padding: 3% 3% 3%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#cta{
+background-color: rgb(60, 52, 55);
+color: wheat;
+padding: 7% 15%;
+text-align: center;    
+}
+.cta-heading{
+    font-family: "montserrat-dark";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 20px 10px ;
+}
